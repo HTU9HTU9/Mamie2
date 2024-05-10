@@ -1,0 +1,838 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/fanch/OneDrive/Bureau/Mamie2/Mamie
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51433
+Successfully changed project path to: C:/Users/fanch/OneDrive/Bureau/Mamie2/Mamie
+C:/Users/fanch/OneDrive/Bureau/Mamie2/Mamie
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23004] Host "[IP] 192.168.228.32 [Port] 0 [Flags] 2 [Guid] 1349125082 [EditorId] 1349125082 [Version] 1048832 [Id] WindowsEditor(7,Hugo-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23004] Host "[IP] 192.168.228.32 [Port] 0 [Flags] 2 [Guid] 1349125082 [EditorId] 1349125082 [Version] 1048832 [Id] WindowsEditor(7,Hugo-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 26.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fanch/OneDrive/Bureau/Mamie2/Mamie/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7094 MB
+    Driver:   31.0.12044.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022491 seconds.
+- Loaded All Assemblies, in  0.857 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 624 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.492 seconds
+Domain Reload Profiling: 2342ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (151ms)
+	LoadAllAssembliesAndSetupDomain (351ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (342ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1493ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (965ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.508 seconds
+Refreshing native plugins compatible for Editor in 8.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.848 seconds
+Domain Reload Profiling: 3350ms
+	BeginReloadAssembly (356ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (940ms)
+		LoadAssemblies (717ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (437ms)
+			TypeCache.Refresh (396ms)
+				TypeCache.ScanAssembly (361ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (1141ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 9.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3115 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.8 KB). Loaded Objects now: 3581.
+Memory consumption went from 131.8 MB to 131.8 MB.
+Total: 7.640700 ms (FindLiveObjects: 0.398300 ms CreateObjectMapping: 0.318700 ms MarkObjects: 6.682900 ms  DeleteObjects: 0.236600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MicrophoneSelecter.cs: df007de701f01d8a4d2e0ca186c8fcee -> 3533023adc2baab8abcdd2018fd4aa98
+  custom:scripting/monoscript/fileName/TypeWriterEffect.cs: fd723d83636eb41cfc8ce8d7f1132b9c -> 7a3d3ae0fa9993fb75dc32e4a36e7cd7
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ScalewithMicrophone.cs: 9727c3a1772b4c50ce7dfb6333d3040f -> 33c431865b30e7f56949833f1aa2dccf
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Mamie.cs: b4c3440ce91fb73d4dbeb90d8e8b19fa -> 98ad050a1ad770b2618b2a9cd9527a37
+  custom:scripting/monoscript/fileName/ScalefromAudioClip.cs: 54d87ab9cd007dd87fa3bdb9c916ea1d -> 4de00c167f1f35288abb5ba8afd1f27e
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AudioLoudnessDetector.cs: 294c80cac6fdf00a9ddc7205a6f47957 -> 5c7d2fe0d11a2da6b315d72d018d44f3
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FillFromMicrophone.cs: dfc14633ee76396f4b3925ea0cd17531 -> 5a00c46427431764be183bfc3d68d5c0
+========================================================================
+Received Import Request.
+  Time since last request: 70507.391251 seconds.
+  path: Assets/HouseFurniturePack/Textures/Fireplace_Normal.tga
+  artifactKey: Guid(01ea2e8ac55f34040a569df545528d8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Fireplace_Normal.tga using Guid(01ea2e8ac55f34040a569df545528d8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d94d86ffe9e1153810ab416665558d1') in 0.343296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Marble_BaseColor.tga
+  artifactKey: Guid(ab7f01d9c8c798f44a7a8a971a95bf04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Marble_BaseColor.tga using Guid(ab7f01d9c8c798f44a7a8a971a95bf04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13ca1f71ba6b40d6bf82fde934a22582') in 0.059204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Wood_BaseColor.tga
+  artifactKey: Guid(150a14e900972ae43b8521e24251ebb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Wood_BaseColor.tga using Guid(150a14e900972ae43b8521e24251ebb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8edffc87e85e4ccdbe1b4c4b0b90217') in 0.060379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Marble_MaskMap.tga
+  artifactKey: Guid(fb7550e50395f4b4d9ce1c2f37cf1eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Marble_MaskMap.tga using Guid(fb7550e50395f4b4d9ce1c2f37cf1eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '870f82057fe8600a2f1ab407fef86d58') in 0.060776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Metals_Normal.tga
+  artifactKey: Guid(f61767737f3dd3a4c809dcb2deb86006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Metals_Normal.tga using Guid(f61767737f3dd3a4c809dcb2deb86006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6dd8424ac3a97fbc8fe1653ed3986fdb') in 0.057002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/Shelf_B.prefab
+  artifactKey: Guid(a96c2867a0f2c194a997df28c772a88e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/Shelf_B.prefab using Guid(a96c2867a0f2c194a997df28c772a88e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd25cfae9ebae81132d2c62069623672e') in 0.062817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HouseFurniturePack/Materials/Paintings_interior.mat
+  artifactKey: Guid(ee8cda3eec2b01843b51338997149170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Materials/Paintings_interior.mat using Guid(ee8cda3eec2b01843b51338997149170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71ad115982f862fb0e4bd655bdc776f4') in 0.120057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HouseFurniturePack/Textures/Lamps_House_Normal.tga
+  artifactKey: Guid(acbf97cba6c5eb24c9d892de1cb3ee6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Lamps_House_Normal.tga using Guid(acbf97cba6c5eb24c9d892de1cb3ee6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df4b574137aff780d1374db344c29363') in 0.059593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/HouseFurniturePack/Textures/Lamps_House_BaseColor.tga
+  artifactKey: Guid(65a277952028e3840ab568e3850b4d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Lamps_House_BaseColor.tga using Guid(65a277952028e3840ab568e3850b4d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2df1974ce6a829607ea5bb9c170b561e') in 0.066254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HouseFurniturePack/Textures/NightTable_BaseColor.tga
+  artifactKey: Guid(a71caa7034d5fdc4085ce5a678e53eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/NightTable_BaseColor.tga using Guid(a71caa7034d5fdc4085ce5a678e53eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0593eefd32ff2332255ff5ac1d17a0ac') in 0.061336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/HouseFurniturePack/Textures/Lamps_House_MaskMap.tga
+  artifactKey: Guid(ffc5c7cf2ed9130458cbde4b37b626b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Lamps_House_MaskMap.tga using Guid(ffc5c7cf2ed9130458cbde4b37b626b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ba384eaf52e54b73d33050e3affd335') in 0.077877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/HouseFurniturePack/Textures/Kitchen_Props_Normal.tga
+  artifactKey: Guid(aa0d7f8988544df498ec274bc676c47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Kitchen_Props_Normal.tga using Guid(aa0d7f8988544df498ec274bc676c47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bf808e5c50bf8e7e852986bd73f8f95') in 0.086346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HouseFurniturePack/Textures/Kitchen_Props_BaseColor.tga
+  artifactKey: Guid(eb3b21efe8dc02a4f80498df54c7185a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Kitchen_Props_BaseColor.tga using Guid(eb3b21efe8dc02a4f80498df54c7185a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e98aeeea306352dae1c409d60441fb61') in 0.073699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/Painting_wide_A.prefab
+  artifactKey: Guid(2bea91ff91d8ef44386a70b2c5811f6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/Painting_wide_A.prefab using Guid(2bea91ff91d8ef44386a70b2c5811f6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bed83236d4460acbe0d8abbc23284194') in 0.050332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/Washingpowder.prefab
+  artifactKey: Guid(0ccaac7d8c17a7749b42a426ac7be7b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/Washingpowder.prefab using Guid(0ccaac7d8c17a7749b42a426ac7be7b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec36a6fbe9f4dee1ff486ad90c0ca5f0') in 0.038510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HouseFurniturePack/Textures/Paintings_interior_BaseColor.tga
+  artifactKey: Guid(0c433d846930dad4285eaed16cfbd0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Paintings_interior_BaseColor.tga using Guid(0c433d846930dad4285eaed16cfbd0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf5d9d364a9b67edf06d71544a3212d9') in 0.058472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/HouseFurniturePack/Textures/PillowSmall_MaskMap.tga
+  artifactKey: Guid(b51ea5820462f3f4c990b7074f271618) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/PillowSmall_MaskMap.tga using Guid(b51ea5820462f3f4c990b7074f271618) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9954f7a55f4d8e17042223358889e5c8') in 0.056683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HouseFurniturePack/Textures/Paintings_House_BaseColor.tga
+  artifactKey: Guid(f05a8d113a6e694438106ef8ca890a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Paintings_House_BaseColor.tga using Guid(f05a8d113a6e694438106ef8ca890a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ad037f6488fe4ffa75af2149c5a682e') in 0.062941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/HouseFurniturePack/Textures/Toilet_House_MaskMap.tga
+  artifactKey: Guid(3c1d0a93993932246947d9f13b402220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Toilet_House_MaskMap.tga using Guid(3c1d0a93993932246947d9f13b402220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8fa7aa52e70705536ec690b3a6967b1') in 0.060844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/HouseFurniturePack/Textures/PillowLarge_MaskMap.tga
+  artifactKey: Guid(d98eefcac746aae4a97c937a289b1939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/PillowLarge_MaskMap.tga using Guid(d98eefcac746aae4a97c937a289b1939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73f4def61300f26d9d6580a7675886bb') in 0.062530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000952 seconds.
+  path: Assets/HouseFurniturePack/Textures/PillowSmall_BaseColor.tga
+  artifactKey: Guid(b7a5fc7c2b892a34989925e338b9927c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/PillowSmall_BaseColor.tga using Guid(b7a5fc7c2b892a34989925e338b9927c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7a623e6adcf3835d526239b058cf7f1') in 0.062420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/HouseFurniturePack/Textures/PillowLarge_Normal.tga
+  artifactKey: Guid(626bad4323320274b80f03a432cceb61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/PillowLarge_Normal.tga using Guid(626bad4323320274b80f03a432cceb61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4995e39598b4556b3818028e2718f925') in 0.059882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/HouseFurniturePack/Textures/Paintings_interior_MaskMap.tga
+  artifactKey: Guid(1f864efddee9789479235d372ffaf95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Paintings_interior_MaskMap.tga using Guid(1f864efddee9789479235d372ffaf95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2e35d77094dc8d8b6734043a621cfc3') in 0.061077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/HouseFurniturePack/Textures/WorkDesk_BaseColor.tga
+  artifactKey: Guid(9efb8ab369862d4469397b3e22eb5620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/WorkDesk_BaseColor.tga using Guid(9efb8ab369862d4469397b3e22eb5620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2a691782dd96d39b65f7c47bd6658ac') in 0.061903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/HouseFurniturePack/Textures/WashingMachine_MaskMap.tga
+  artifactKey: Guid(724fd0a8a39d5954a85ae409d69276e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/WashingMachine_MaskMap.tga using Guid(724fd0a8a39d5954a85ae409d69276e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69fad8ad1fc3643b0cfec51d046279a6') in 0.059672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/HouseFurniturePack/URP/HouseFurniture_URP.unitypackage
+  artifactKey: Guid(a1d8e6f6ca01953419633d37e9270d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/URP/HouseFurniture_URP.unitypackage using Guid(a1d8e6f6ca01953419633d37e9270d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1d48b7270ce1512db83b0eb215df3a5') in 0.023975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Scripts/Font/TypeWriterEffect.cs
+  artifactKey: Guid(4026c0921aa418c4fba9fdbed5bef2e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Font/TypeWriterEffect.cs using Guid(4026c0921aa418c4fba9fdbed5bef2e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50846503a3ae4b5217defa5c600fb341') in 0.022343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f89cf534f1650ebdb8c7259eb7b1dd6') in 0.033286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Scripts/Microphone/MicrophoneSelecter.cs
+  artifactKey: Guid(47c1e919de660f84fbcaedd6da20058d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Microphone/MicrophoneSelecter.cs using Guid(47c1e919de660f84fbcaedd6da20058d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82c45df008d011694582117d0a0c78ca') in 0.021614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Scripts/Microphone/FillFromMicrophone.cs
+  artifactKey: Guid(48edf36314512f34baf1e17f8a1ef22f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Microphone/FillFromMicrophone.cs using Guid(48edf36314512f34baf1e17f8a1ef22f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95c5ac6a372175619417a2460093f575') in 0.025077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/HouseFurniturePack/Textures/WashingMachine_BaseColor.tga
+  artifactKey: Guid(9fe4d00108e762c42be0c5e7d24cd53c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/WashingMachine_BaseColor.tga using Guid(9fe4d00108e762c42be0c5e7d24cd53c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b0289ed911adca1d8836998b4228715') in 0.054102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/HouseFurniturePack/Meshes/Painting_photo_B.FBX
+  artifactKey: Guid(0298bfde4cd2cad408acc6f038a1e343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Meshes/Painting_photo_B.FBX using Guid(0298bfde4cd2cad408acc6f038a1e343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3115e29e40ba1b8871fc69adc964158a') in 0.074740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/Lamp_wall_chan.prefab
+  artifactKey: Guid(e48afc466a53b674ea78fd29a3bf961b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/Lamp_wall_chan.prefab using Guid(e48afc466a53b674ea78fd29a3bf961b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '642c91fa03fa2fabe19608e6b178ea63') in 0.044507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/Plant_interior_aglaonema.prefab
+  artifactKey: Guid(5f4202b635b251646bc561e2ef7d4e84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/Plant_interior_aglaonema.prefab using Guid(5f4202b635b251646bc561e2ef7d4e84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7404355df32d072fbefe0f143189b9ed') in 0.040305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HouseFurniturePack/Readme/Readme.txt
+  artifactKey: Guid(12e8301d497ef9b47858e88c1e1f369b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Readme/Readme.txt using Guid(12e8301d497ef9b47858e88c1e1f369b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc7f10e5b3fda203efbd56349ece32b8') in 0.030274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HouseFurniturePack/Meshes/Bedstool_B.FBX
+  artifactKey: Guid(9c305b604fd514240b60c3457425a0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Meshes/Bedstool_B.FBX using Guid(9c305b604fd514240b60c3457425a0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecb76bb092d0cc624257add7b1bf7dff') in 0.048415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dbb39639681c045cd4e711e37c3b720') in 0.033747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f43d6a35f0743743fca9bf370793bac8') in 0.092296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ceda3c1d181dc0da2d9f07f5e181068a') in 0.032438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '332d886ec554a0ef47344a4216e1daa2') in 0.034744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/HouseFurniturePack/Textures/Fridge_Glasses_Normal.tga
+  artifactKey: Guid(93e7ef2887df46c44829355ef87d83d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Fridge_Glasses_Normal.tga using Guid(93e7ef2887df46c44829355ef87d83d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '965483c2b84902aec0faf6f3c5302d85') in 0.061002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '361d59b5414f2da222191db81dc667f0') in 0.037378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HouseFurniturePack/Textures/Fridge_BaseColor.tga
+  artifactKey: Guid(d0aa50bd74100e546867b608b9e03580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Fridge_BaseColor.tga using Guid(d0aa50bd74100e546867b608b9e03580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a04f09684ea1ee626780a415d7fe4e33') in 0.059470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/Fireplace_withwall_bookshelf.prefab
+  artifactKey: Guid(0ddb669b7b5a3944993de58a32209188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/Fireplace_withwall_bookshelf.prefab using Guid(0ddb669b7b5a3944993de58a32209188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64736da14640e5a1abadd75383fe85a6') in 0.046639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HouseFurniturePack/Meshes/Kitchen_table_small.FBX
+  artifactKey: Guid(4d834e811b36bd449b94cbfb547649f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Meshes/Kitchen_table_small.FBX using Guid(4d834e811b36bd449b94cbfb547649f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e325da88f62e2ebc793611579de5c30') in 0.044825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HouseFurniturePack/Colliders/NightTable_Drawer_COL.FBX
+  artifactKey: Guid(160ae15c0aa62614ab304b107d230348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Colliders/NightTable_Drawer_COL.FBX using Guid(160ae15c0aa62614ab304b107d230348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ebac9e104bea9b50f52638a45f97716') in 0.052099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HouseFurniturePack/Meshes/Kitcabinet_upper_1x_cookerhood.FBX
+  artifactKey: Guid(7ada3c32efa86944e8d7c5d8d4571ef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Meshes/Kitcabinet_upper_1x_cookerhood.FBX using Guid(7ada3c32efa86944e8d7c5d8d4571ef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb20e9c674acb641b76bf093730fb96c') in 0.042538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/Lamp_ceiling_circle.prefab
+  artifactKey: Guid(4d166f1ad05f1a947a4610eb0e418a79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/Lamp_ceiling_circle.prefab using Guid(4d166f1ad05f1a947a4610eb0e418a79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4461da6c110ef9a26a78436e845912a') in 0.049462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HouseFurniturePack/Materials/Additional_SmallProps.mat
+  artifactKey: Guid(f07ba428f97ee6f4f9cec2648be81b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Materials/Additional_SmallProps.mat using Guid(f07ba428f97ee6f4f9cec2648be81b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eba4660a3fe01aa5cfd3c594c21f2b7f') in 0.034390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HouseFurniturePack/Materials/Kitchen_Props.mat
+  artifactKey: Guid(27a924497678b6640b8bb13091b10862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Materials/Kitchen_Props.mat using Guid(27a924497678b6640b8bb13091b10862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2444718021fc0a5024f443f265557a9b') in 0.037228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/Lamp_kitchen_A.prefab
+  artifactKey: Guid(675d13c181ede684cb52dcf806ca3b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/Lamp_kitchen_A.prefab using Guid(675d13c181ede684cb52dcf806ca3b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f17c629e02d8449256dd056d1afd8d17') in 0.043668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/To_towel_table_B.prefab
+  artifactKey: Guid(c16180a27b67120478eebc3fb5f8a287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/To_towel_table_B.prefab using Guid(c16180a27b67120478eebc3fb5f8a287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a54d98530d06331eba0d4be450f6932') in 0.039685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HouseFurniturePack/Meshes/Lamp_chandelier.FBX
+  artifactKey: Guid(45d352c59a00c1d4688acd56ce3aa28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Meshes/Lamp_chandelier.FBX using Guid(45d352c59a00c1d4688acd56ce3aa28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ecaf15b94db2b87d068a8d7b1e5a578') in 0.052055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/HouseFurniturePack/Meshes/Garage_metalbox.FBX
+  artifactKey: Guid(e615dbdb652bdae4fb81658a5afdbf53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Meshes/Garage_metalbox.FBX using Guid(e615dbdb652bdae4fb81658a5afdbf53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff9090db9f8cac41d36a6d4a7f193e5d') in 0.039780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Wood_Normal.tga
+  artifactKey: Guid(757b56b31fcdfcb4ba96fb2d8424d2a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Kitchen_Cabinet_Wood_Normal.tga using Guid(757b56b31fcdfcb4ba96fb2d8424d2a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cdb73f519b96e9b228406048eee6416') in 0.061227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/MamieTest.unity
+  artifactKey: Guid(e832568dc8c1faf4a98c2000ede0642d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/MamieTest.unity using Guid(e832568dc8c1faf4a98c2000ede0642d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe4c0508157f52e6e63a12d1d43d939a') in 0.021440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/KP_cookiebox.prefab
+  artifactKey: Guid(37cc39824ae2e4e46b68f62af480a96c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/KP_cookiebox.prefab using Guid(37cc39824ae2e4e46b68f62af480a96c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35ce3ed8992a1decaa7bc2eac5dabf06') in 0.045942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/Player/Controller.cs
+  artifactKey: Guid(677c5d1e6cd5bad4ca762b3522309b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player/Controller.cs using Guid(677c5d1e6cd5bad4ca762b3522309b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cb4aea77e0e397f6f4566cf5e748d1e') in 0.022543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HouseFurniturePack/Meshes/Basement_box.FBX
+  artifactKey: Guid(50bf7932a035d864a8283f8becfc0324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Meshes/Basement_box.FBX using Guid(50bf7932a035d864a8283f8becfc0324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd67b89bbfeacdb93f37b940c718f2c50') in 0.040779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adce51b481b35465f87473f433e7dcbf') in 0.028937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/HouseFurniturePack/Prefabs/Fridge.prefab
+  artifactKey: Guid(88589cccf4b8f9644897ef5ce85ea491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Prefabs/Fridge.prefab using Guid(88589cccf4b8f9644897ef5ce85ea491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b202aadd27ca650cf690f9a32b8228a') in 0.037518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HouseFurniturePack/Textures/Couch_Fabric_MaskMap.tga
+  artifactKey: Guid(c739b9ed788d0c44e8ab017932ac9b1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Textures/Couch_Fabric_MaskMap.tga using Guid(c739b9ed788d0c44e8ab017932ac9b1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74d43444a2dab32482201d83fd58ef62') in 0.062560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/HouseFurniturePack/Meshes/Book_B.FBX
+  artifactKey: Guid(a51b5e6211040d442aa093ea04f9358b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HouseFurniturePack/Meshes/Book_B.FBX using Guid(a51b5e6211040d442aa093ea04f9358b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f3f09b15d25e5da907874da13cb853f') in 0.039559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.919 seconds
+Refreshing native plugins compatible for Editor in 7.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.689 seconds
+Domain Reload Profiling: 3603ms
+	BeginReloadAssembly (326ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (598ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2691ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (1106ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 10.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3584.
+Memory consumption went from 128.8 MB to 128.8 MB.
+Total: 8.296700 ms (FindLiveObjects: 0.557900 ms CreateObjectMapping: 0.235000 ms MarkObjects: 7.396000 ms  DeleteObjects: 0.105500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MicrophoneSelecter.cs: df007de701f01d8a4d2e0ca186c8fcee -> 3533023adc2baab8abcdd2018fd4aa98
+  custom:scripting/monoscript/fileName/TypeWriterEffect.cs: fd723d83636eb41cfc8ce8d7f1132b9c -> 7a3d3ae0fa9993fb75dc32e4a36e7cd7
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ScalewithMicrophone.cs: 9727c3a1772b4c50ce7dfb6333d3040f -> 33c431865b30e7f56949833f1aa2dccf
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Mamie.cs: b4c3440ce91fb73d4dbeb90d8e8b19fa -> 98ad050a1ad770b2618b2a9cd9527a37
+  custom:scripting/monoscript/fileName/ScalefromAudioClip.cs: 54d87ab9cd007dd87fa3bdb9c916ea1d -> 4de00c167f1f35288abb5ba8afd1f27e
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AudioLoudnessDetector.cs: 294c80cac6fdf00a9ddc7205a6f47957 -> 5c7d2fe0d11a2da6b315d72d018d44f3
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FillFromMicrophone.cs: dfc14633ee76396f4b3925ea0cd17531 -> 5a00c46427431764be183bfc3d68d5c0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
