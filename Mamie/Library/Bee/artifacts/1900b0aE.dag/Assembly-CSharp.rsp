@@ -360,6 +360,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AI/GrandpaMovement.cs"
+"Assets/Scripts/Camera/CameraManager.cs"
+"Assets/Scripts/Camera/PlayerCameraControl.cs"
 "Assets/Scripts/Font/TypeWriterEffect.cs"
 "Assets/Scripts/Microphone/AudioLoudnessDetector.cs"
 "Assets/Scripts/Microphone/FillFromMicrophone.cs"
@@ -368,6 +370,7 @@
 "Assets/Scripts/Microphone/ScalewithMicrophone.cs"
 "Assets/Scripts/Player/Controller.cs"
 "Assets/Scripts/Player/FirstPersonCameraController.cs"
+"Assets/Scripts/TV/TVRemoteControl.cs"
 -langversion:9.0
 
 /deterministic
