@@ -15,17 +15,13 @@ public class CameraManager : MonoBehaviour
             cameras[i].gameObject.SetActive(false);
         }
 
-        // If no cameras were added to the controller, output an error.
-        if (cameras.Length == 0)
-        {
-            Debug.LogError("No cameras attached to CameraManager");
-        }
+        
 
         // Enable the first camera if any
         if (cameras.Length > 0)
         {
             cameras[0].gameObject.SetActive(true);
-            Debug.Log("Camera with index 0 is now active");
+            
         }
     }
 
@@ -40,7 +36,7 @@ public class CameraManager : MonoBehaviour
             {
                 cameras[currentCameraIndex - 1].gameObject.SetActive(false);
                 cameras[currentCameraIndex].gameObject.SetActive(true);
-                Debug.Log("Camera with index " + currentCameraIndex + " is now active");
+                
             }
             else
             {
@@ -48,7 +44,7 @@ public class CameraManager : MonoBehaviour
                 cameras[currentCameraIndex - 1].gameObject.SetActive(false);
                 currentCameraIndex = 0;
                 cameras[currentCameraIndex].gameObject.SetActive(true);
-                Debug.Log("Camera with index " + currentCameraIndex + " is now active");
+                
             }
         }
     }

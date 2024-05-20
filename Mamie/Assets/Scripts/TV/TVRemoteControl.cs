@@ -1,10 +1,15 @@
 using UnityEngine;
 using UnityEngine.Video;
+using TMPro; // Include the TextMeshPro namespace
 
 public class TVRemoteControl : MonoBehaviour
 {
     public VideoPlayer tvVideoPlayer;  // Assign this in the inspector
     public float interactionDistance = 3f;  // Maximum distance to interact with the remote
+    public TextMeshProUGUI timeText; // Assign your TextMeshPro UI component here
+
+    private float timeSinceTVOn = 0f;       // Timer to keep track of the time since the TV was turned on
+    private bool isTVOn = false;            // State to check if the TV is currently on
 
     void Update()
     {
@@ -22,20 +27,31 @@ public class TVRemoteControl : MonoBehaviour
                 }
             }
         }
+
+        // Update the timer if the TV is on
+        if (isTVOn)
+        {
+            timeSinceTVOn += Time.deltaTime;
+        }
+
+        // Always update the TextMeshPro text to display the timer, regardless of TV state
+        timeText.text = $"You survived {timeSinceTVOn:F2} seconds";
     }
 
     void ToggleVideoPlayback()
-{
-    // Check if the VideoPlayer component is enabled
-    if (tvVideoPlayer.enabled)
     {
-        tvVideoPlayer.enabled = false;  // Disable the VideoPlayer to turn off video
-    }
-    else
-    {
-        tvVideoPlayer.enabled = true;   // Enable the VideoPlayer to turn on video
-        tvVideoPlayer.Play();           // Optionally start playing immediately
-    }
-}
+        // Toggle the enabled state of the VideoPlayer
+        tvVideoPlayer.enabled = !tvVideoPlayer.enabled;
+        isTVOn = tvVideoPlayer.enabled; // Update isTVOn based on the VideoPlayer's state
 
+        // If the TV is turned off, stop the video player but do not reset the timer
+        if (!isTVOn)
+        {
+            tvVideoPlayer.Pause(); // Ensure the video is paused when the TV is off
+        }
+        else
+        {
+            tvVideoPlayer.Play(); // Start playing the video if the TV is turned on
+        }
+    }
 }
