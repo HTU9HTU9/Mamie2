@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Video;
 using TMPro;
 
 public class MonsterSpawner : MonoBehaviour
@@ -8,22 +7,29 @@ public class MonsterSpawner : MonoBehaviour
     public GameObject monsterPrefab;  // Assign your monster prefab in the inspector
     public Transform[] spawnPoints;   // Assign 2 different spawn points in the inspector
     public TextMeshProUGUI feedbackText; // Assign your TextMeshPro UI component for feedback
-    public VideoPlayer tvVideoPlayer; // Reference to the TV VideoPlayer
-    public TVRemoteControl tvRemote;  // Reference to the TV Remote script
+    public Transform playerTransform;  // Reference to the player's transform
+    private TVRemoteControl tvRemote;  // Reference to the TV Remote script
 
     private GameObject currentMonster;
     private bool isMonsterActive = false;
+    private bool spawningEnabled = false;
     private float timeBetweenAttacks;
     private float attackTimer;
     private float monsterAttackTime = 5f; // Time player has to stop the monster attack
 
     void Start()
     {
-        StartNewAttack();
+        tvRemote = FindObjectOfType<TVRemoteControl>();
+        if (tvRemote == null)
+        {
+            Debug.LogError("TVRemoteControl component not found in the scene!");
+        }
     }
 
     void Update()
     {
+        if (!spawningEnabled) return;
+
         if (isMonsterActive)
         {
             if (tvRemote.isTVOn)
@@ -48,6 +54,12 @@ public class MonsterSpawner : MonoBehaviour
         }
     }
 
+    public void StartSpawning()
+    {
+        spawningEnabled = true;
+        StartNewAttack();
+    }
+
     void StartNewAttack()
     {
         timeBetweenAttacks = Random.Range(10f, 20f);
@@ -58,19 +70,33 @@ public class MonsterSpawner : MonoBehaviour
     {
         int spawnIndex = Random.Range(0, spawnPoints.Length);
         currentMonster = Instantiate(monsterPrefab, spawnPoints[spawnIndex].position, spawnPoints[spawnIndex].rotation);
+
+        if (playerTransform != null)
+        {
+            currentMonster.transform.LookAt(playerTransform);
+            Vector3 lookDirection = playerTransform.position - currentMonster.transform.position;
+            lookDirection.y = 0;  // Keep the y-axis level
+            currentMonster.transform.rotation = Quaternion.LookRotation(lookDirection);
+        }
+
         attackTimer = monsterAttackTime;
         isMonsterActive = true;
     }
 
     public void OnMonsterClicked()
     {
-        if (isMonsterActive && tvRemote.isTVOn)
+        if (isMonsterActive && !tvRemote.isTVOn) // Ensure the TV is off
         {
             Destroy(currentMonster);
             feedbackText.text = "Good";
             Invoke("ClearFeedback", 2f);
             isMonsterActive = false;
             StartNewAttack();
+        }
+        else if (isMonsterActive && tvRemote.isTVOn)
+        {
+            feedbackText.text = "Turn off the TV first!";
+            Invoke("ClearFeedback", 2f);
         }
     }
 
