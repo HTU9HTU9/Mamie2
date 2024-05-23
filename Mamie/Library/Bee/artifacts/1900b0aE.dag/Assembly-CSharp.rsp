@@ -363,6 +363,7 @@
 "Assets/Scripts/AI/Monster.cs"
 "Assets/Scripts/AI/MonsterSpawner.cs"
 "Assets/Scripts/Camera/CameraManager.cs"
+"Assets/Scripts/Camera/FPSCounter.cs"
 "Assets/Scripts/Camera/PlayerCameraControl.cs"
 "Assets/Scripts/Font/TypeWriterEffect.cs"
 "Assets/Scripts/Microphone/AudioLoudnessDetector.cs"
